@@ -22,7 +22,7 @@ namespace TodoApi
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("name=fullstack_todolist", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.33-mysql"));
+                optionsBuilder.UseMySql("name=api_todo", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.33-mysql"));
             }
         }
 
