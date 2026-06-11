@@ -63,4 +63,10 @@ public async Task<bool> UpdateItemAsync(int id, Item updatedItem)
         
         return true;
     }
+
+    public async Task<User?> AuthenticateUser(string? name, string? password)
+{
+    return await _db.Users
+        .FirstOrDefaultAsync(u => u.Name == name && u.Password == password);
+}
 }
