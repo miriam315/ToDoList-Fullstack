@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\ToDoList-Fullstack\\TodoApi.csproj": {}
+    "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\‏‏תיקיה חדשה\\ToDoList-Fullstack\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\ToDoList-Fullstack\\TodoApi.csproj": {
+    "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\‏‏תיקיה חדשה\\ToDoList-Fullstack\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\ToDoList-Fullstack\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\‏‏תיקיה חדשה\\ToDoList-Fullstack\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\ToDoList-Fullstack\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\‏‏תיקיה חדשה\\ToDoList-Fullstack\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\ToDoList-Fullstack\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\year b\\פרקטיקוד\\‏‏תיקיה חדשה\\ToDoList-Fullstack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.20.1, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
