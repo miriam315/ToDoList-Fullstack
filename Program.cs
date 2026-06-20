@@ -49,11 +49,11 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.UseCors("AllowAll");
 
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.MapPost("/register", async (User newUser, ToDoDbContext db) =>
 {
@@ -115,5 +115,7 @@ app.MapDelete("/items/{id}", async (int id, Service service) =>
     var success = await service.DeleteItemAsync(id);
     return success ? Results.NoContent() : Results.NotFound("Item not found");
 }).RequireAuthorization();
+
+app.MapGet("/", () => "Todo API is running. Use /swagger to explore the API endpoints.");
 
 app.Run();
